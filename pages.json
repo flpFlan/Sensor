@@ -1,0 +1,64 @@
+{
+	"pages": [{
+		"path": "pages/SleepMonitor/SleepMonitor",
+		"style": {
+			"navigationBarTitleText": "睡眠检测"
+		}
+	}, {
+		"path": "pages/HeartRateMonitor/HeartRateMonitor",
+		"style": {
+			"navigationBarTitleText": "心率监测"
+		}
+	}, {
+		"path": "pages/ExpertConsultation/ExpertConsultation",
+		"style": {
+			"navigationBarTitleText": "专家问诊"
+		}
+	}, {
+		"path": "pages/EmergencyContact/EmergencyContact",
+		"style": {
+			"navigationBarTitleText": "应急联系"
+		}
+	},
+	{"path": "pages/Search/Search"}],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+			"selectedColor": "#3cc51f",
+			"borderStyle": "black",
+			"backgroundColor": "#ffffff",
+		"list": [{
+				"text": "睡眠监测",
+				"pagePath": "pages/SleepMonitor/SleepMonitor",
+				"iconPath": "static/c1.png",
+				"selectedIconPath": "static/c1.png"
+			},
+			{
+				"text": "心率监测",
+				"pagePath": "pages/HeartRateMonitor/HeartRateMonitor",
+				"iconPath": "static/c2.png",
+				"selectedIconPath": "static/c2.png"
+			},
+			{
+				"text": "专家问诊",
+				"pagePath": "pages/ExpertConsultation/ExpertConsultation",
+				"iconPath": "static/c3.png",
+				"selectedIconPath": "static/c3.png"
+			},
+			{
+				"text": "应急联系",  
+				"pagePath": "pages/EmergencyContact/EmergencyContact",
+				"iconPath": "static/c4.png",
+				"selectedIconPath": "static/c4.png"
+			}
+		]
+	}
+}
